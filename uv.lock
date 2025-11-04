@@ -2329,7 +2329,7 @@ dependencies = [
     { name = "ollama" },
     { name = "pydantic" },
     { name = "pydantic-ai" },
-    { name = "pydantic-ai-slim", extra = ["outlines-mlxlm"] },
+    { name = "pydantic-ai-slim", extra = ["mcp", "outlines-mlxlm", "tavily"] },
     { name = "pydantic-yaml" },
     { name = "python-dotenv" },
     { name = "rich", extra = ["jupyter"] },
@@ -2344,7 +2344,7 @@ requires-dist = [
     { name = "ollama", specifier = ">=0.6.0" },
     { name = "pydantic", specifier = ">=2.12.3" },
     { name = "pydantic-ai", specifier = ">=1.9.1" },
-    { name = "pydantic-ai-slim", extras = ["outlines-mlxlm"], specifier = ">=1.9.1" },
+    { name = "pydantic-ai-slim", extras = ["mcp", "outlines-mlxlm", "tavily"], specifier = ">=1.9.1" },
     { name = "pydantic-yaml", specifier = ">=1.6.0" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "rich", extras = ["jupyter"], specifier = ">=14.2.0" },
@@ -2422,6 +2422,9 @@ outlines-mlxlm = [
 ]
 retries = [
     { name = "tenacity" },
+]
+tavily = [
+    { name = "tavily-python" },
 ]
 temporal = [
     { name = "temporalio" },
