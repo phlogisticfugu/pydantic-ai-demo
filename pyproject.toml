@@ -11,6 +11,7 @@ dependencies = [
     "pydantic>=2.12.3",
     "pydantic-ai>=1.9.1",
     "pydantic-ai-slim[outlines-mlxlm]>=1.9.1",
+    "pydantic-yaml>=1.6.0",
     "python-dotenv>=1.2.1",
     "rich[jupyter]>=14.2.0",
     "ruff>=0.14.3",
